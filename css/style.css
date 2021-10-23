@@ -1,8 +1,6 @@
 /* ------------------------------------------------------------------------------
 
-  Template Name: Archiko. 
-  Description: Archiko. - Architecture HTML Template
-  Author: Murren
+  Author: Ana
   Author URI: http://themeforest.net/user/paul_tf
   Version: 1.0
   
@@ -1112,7 +1110,8 @@ i.icon {
 #aboutus {
     background-image: url(../img/aboutus.png);
     background-size: cover;
-    padding-bottom: 6em;
+    padding-bottom: 4em;
+    padding-top: 7em;
 }
 
 #team {
@@ -1891,6 +1890,10 @@ img.mfp-img {
     max-width: 500px;
 }
 
+#aboutus .subscribe-form {
+    max-width: 300px;
+}
+
 .footer-bottom {
     font-weight: 400;
     margin-top: 3.5em;
@@ -1923,91 +1926,8 @@ img.mfp-img {
     margin-right: 25px;
 }
 
-
-/* ------------------------------------------------------------------------------- */
-
-
-/*  10. Modals
-/* ------------------------------------------------------------------------------- */
-
-.modal {
-    text-align: center;
-}
-
-.modal-content {
-    border-radius: 20px;
-    background: #1f1f1f;
-}
-
-.modal-content p {
-    margin-bottom: 0;
-}
-
-.modal-dialog {
-    display: inline-block;
-    text-align: left;
-    vertical-align: middle;
-    width: 90%;
-    margin: 25px auto;
-    border-radius: 0;
-}
-
-.modal:before {
-    display: inline-block;
-    vertical-align: middle;
-    content: " ";
-    height: 100%;
-}
-
-@media (min-width: 768px) {
-    .modal-dialog {
-        width: 29em;
-    }
-}
-
-.modal-content {
-    border: 0;
-    color: #3d3d3d;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-.modal-header {
-    padding: 3em 1.2em;
-    text-align: center;
-    border-bottom: 0;
-}
-
-.modal-header .close {
-    position: absolute;
-    right: 0.9em;
-    top: 0.9em;
-}
-
-.modal-title {
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    font-size: 1.8em;
-    color: #fff;
-}
-
-.modal-info {
-    color: #b0b0b0;
-    font-size: 1.12em;
-    margin: 0.5em 0 0;
-    line-height: 1.6;
-}
-
-.modal-body {
-    font-size: 1em;
-    padding: 0 4.2em 3em;
-}
-
-.modal-footer {
-    text-align: center;
-    padding: 0;
-    border: 0;
-    margin-top: 2em;
+.col-subscribe {
+    margin-top: 20px;
 }
 
 
